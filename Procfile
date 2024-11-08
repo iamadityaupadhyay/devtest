@@ -1,1 +1,1 @@
-web: gunicorn data.wsgi:application --bind 0.0.0.0:8000
+web: gunicorn src.data.wsgi:application --bind 0.0.0.0:8000
